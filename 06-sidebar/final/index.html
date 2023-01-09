@@ -4,19 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sidebar || Starter</title>
+    <title>Sidebar || Final</title>
     <!-- normalize -->
     <link rel="stylesheet" href="./normalize.css" />
     <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      href="./fontawesome-free-6.2.1-web/css/all.min.css"
     />
     <!-- main css -->
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <h1>sidebar starter</h1>
+    <button class="sidebar-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- sidebar -->
+    <aside class="sidebar">
+      <!-- header -->
+      <div class="sidebar-header">
+        <img src="./logo.svg" alt="coding addict" class="logo" />
+        <button type="button" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <!-- links -->
+      <ul class="links">
+        <li>
+          <a href="index.html">home</a>
+        </li>
+        <li>
+          <a href="about.html">about</a>
+        </li>
+        <li>
+          <a href="projects.html">projects</a>
+        </li>
+        <li>
+          <a href="contact.html">contact</a>
+        </li>
+      </ul>
+    </aside>
+    <!-- end of sidebar -->
+
+    <!-- social media -->
+    <ul class="social-icons">
+      <li>
+        <a href="https://www.twitter.com">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.quora.com">
+          <i class="fa-brands fa-quora"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.github.com">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+    </ul>
+
     <!-- javascript -->
     <!-- <script src="./app.js"></script> -->
   </body>
